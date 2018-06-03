@@ -1,3 +1,3 @@
 #! /bin/sh
 
-$ find -printf "1"|wc -c
+find \( -type f -o -type d \) -printf "1"|wc -c
